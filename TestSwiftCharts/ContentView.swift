@@ -5,21 +5,13 @@
 //  Created by Jake Nelson on 26/07/2022.
 //
 
+import Charts
 import SwiftUI
+import WeatherKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        InteractiveLollipop()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

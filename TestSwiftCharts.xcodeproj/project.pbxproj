@@ -11,6 +11,9 @@
 		C245519828906927005F0089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C245519728906927005F0089 /* ContentView.swift */; };
 		C245519A28906929005F0089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C245519928906929005F0089 /* Assets.xcassets */; };
 		C245519E28906929005F0089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C245519D28906929005F0089 /* Preview Assets.xcassets */; };
+		C24551A5289092AC005F0089 /* MinimalChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24551A4289092AC005F0089 /* MinimalChart.swift */; };
+		C24551A7289112CD005F0089 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24551A6289112CD005F0089 /* Data.swift */; };
+		C24551A9289112EF005F0089 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24551A8289112EF005F0089 /* Chart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C245519928906929005F0089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C245519B28906929005F0089 /* TestSwiftCharts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestSwiftCharts.entitlements; sourceTree = "<group>"; };
 		C245519D28906929005F0089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C24551A4289092AC005F0089 /* MinimalChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalChart.swift; sourceTree = "<group>"; };
+		C24551A6289112CD005F0089 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C24551A8289112EF005F0089 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 			children = (
 				C245519528906927005F0089 /* TestSwiftChartsApp.swift */,
 				C245519728906927005F0089 /* ContentView.swift */,
+				C24551A8289112EF005F0089 /* Chart.swift */,
+				C24551A4289092AC005F0089 /* MinimalChart.swift */,
 				C245519928906929005F0089 /* Assets.xcassets */,
 				C245519B28906929005F0089 /* TestSwiftCharts.entitlements */,
 				C245519C28906929005F0089 /* Preview Content */,
+				C24551A6289112CD005F0089 /* Data.swift */,
 			);
 			path = TestSwiftCharts;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24551A9289112EF005F0089 /* Chart.swift in Sources */,
+				C24551A5289092AC005F0089 /* MinimalChart.swift in Sources */,
 				C245519828906927005F0089 /* ContentView.swift in Sources */,
 				C245519628906927005F0089 /* TestSwiftChartsApp.swift in Sources */,
+				C24551A7289112CD005F0089 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
